@@ -6,51 +6,72 @@
     <title>Sizzle Spot</title>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/bootstrap.min.css" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-
     <!-- Hero Section -->
 
-      <section class="container-fluid position-relative p-0 ">
+    <section class="container-xxl position-relative p-0">
+      <nav
+        class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0 custom-nav-container"
+      >
+        <a href="" class="navbar-brand p-0">
+          <img src="images/sizzle logo v1.png" alt="Logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarSupportedContent"
+        >
+          <span class=""> </span>
+        </button>
 
-        <nav class="nav-section navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0 custom-nav-container">
-          <a href="" class="navbar-brand p-0">
-              <img src="images/sizzle logo v1.png" alt="Logo">
-          </a>
-          <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarCollapse"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class=""> </span>
-            </button>
-
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-
-              <div class="navbar-nav ms-auto py-0 pe-4">
-                
-                <ul class="navbar-nav">
-                        <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-                        <li class="nav-item "><a href="#" class="nav-link">About</a></li>
-                        <li class="nav-item "><a href="#" class="nav-link">Menu</a></li>
-                        <li class="nav-item "><a href="#" class="nav-link">Contact</a></li>
-                        <li class="nav-item "><a class=" btn btn-primary" href="" >RSVP</a></li>
-                </ul>
-
-                
-              </div>
-             
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto py-0 pe-4">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Menu</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+              <li class="nav-item">
+                <a class="btn btn-primary" href="">RSVP</a>
+              </li>
+            </ul>
           </div>
+        </div>
       </nav>
 
+      <div class="container-xxl py-5 bg-dark hero-main mb-5">
+        <div class="container my-5 py-5">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-6 text-center text-lg-start">
+              <h1 class="display-3 text-white animated slideInLeft">
+                A Premium and Authentic <br />Grill House
+              </h1>
+            </div>
+            <div class="col-lg-6 text-center text-lg-end overflow-hidden">
+              <img class="img-fluid" src="images/sizzle spot.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-      </section>
-
+    <script type="text/javascript" src="/js/jquery-3.7.1.min.js"></script>
     <script type="text/javascript" src="/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
