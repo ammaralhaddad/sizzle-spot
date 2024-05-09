@@ -135,30 +135,11 @@
   width: 20px !important;
 }
 
-
-
-
-
-/* Menu Section */
-
-
-
-/* //old */
-/* .nav-items a {
-  text-decoration: none;
-}
-
-.section-icon{
+.horizontal-lines {
+  margin: auto;
   color: #ef4813;
+  height: 2px;
 }
-
-.section-icon-title{
-  color:#212529
-}
-
-.nav-pills .nav-items a.active {
-  border-bottom: 2px solid #ef4813 ;
-}  */
 
 /* Media query section */
 
