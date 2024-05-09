@@ -121,22 +121,48 @@
   }
 }
 
-
 /* About Section */
 .section-title {
   color: #ef4813;
+  font-size: 22px;
 }
 
-
-.header-name{
+.header-name {
   color: #ef4813;
 }
 
+.image-size {
+  width: 20px !important;
+}
+
+
+
+
+
+/* Menu Section */
+
+
+
+/* //old */
+/* .nav-items a {
+  text-decoration: none;
+}
+
+.section-icon{
+  color: #ef4813;
+}
+
+.section-icon-title{
+  color:#212529
+}
+
+.nav-pills .nav-items a.active {
+  border-bottom: 2px solid #ef4813 ;
+}  */
 
 /* Media query section */
 
 @media (min-width: 992px) {
-
   .navbar-dark {
     position: absolute;
     width: 100%;
@@ -161,9 +187,7 @@
   }
 }
 
-
-@media (min-width: 768px) { 
-  
+@media (min-width: 768px) {
   .navbar-dark {
     position: absolute;
     width: 100%;
@@ -186,12 +210,9 @@
       rgb(34, 34, 34) 90%
     ) !important;
   }
-
-
 }
 
-
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
   .navbar-dark {
     position: absolute;
     width: 100%;
@@ -214,7 +235,4 @@
       rgb(34, 34, 34) 90%
     ) !important;
   }
-
- }
-
- 
+}
