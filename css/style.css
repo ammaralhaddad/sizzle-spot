@@ -141,6 +141,20 @@
   height: 2px;
 }
 
+
+/* Menu section */
+
+.menu-section {
+  background: radial-gradient(
+      circle at 10% 20%,
+      rgb(69, 86, 102) 0%,
+      rgb(34, 34, 34) 90%
+    ) !important;
+    padding: 40px;
+    color: #ffffff;
+    border-radius: 50px;
+}
+
 /* Media query section */
 
 @media (min-width: 992px) {
