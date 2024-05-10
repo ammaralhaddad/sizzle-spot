@@ -10,5 +10,5 @@ $(window).scroll(function () {
 
 $('[data-toggle="counter-up"]').counterUp({
   delay: 5,
-  time: 3000,
+  time: 2000,
 });
