@@ -105,11 +105,9 @@
   text-decoration: none;
 }
 
-.logo-main{
+.logo-main {
   width: 180px;
 }
-
-
 
 /* Hero section */
 
@@ -151,6 +149,8 @@
   height: 2px;
 }
 
+
+
 /* Menu section */
 
 .menu-section {
@@ -162,6 +162,30 @@
   padding: 40px;
   color: #ffffff;
   border-radius: 50px;
+  margin-bottom: 80px;
+}
+
+.footer-section {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(69, 86, 102) 0%,
+    rgb(34, 34, 34) 90%
+  ) !important;
+}
+
+.footer-section a {
+  text-decoration: none;
+  color: #ef4813;
+}
+
+.footer-section a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer-section-company a:hover {
+  text-decoration: none;
+  color: #ef4813 !important;
 }
 
 /* Media query section */
