@@ -12,14 +12,18 @@
   padding: 5px 20px;
   color: #f2f2f2;
   transition: all 0.3s;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .custom-nav-container .navbar-nav .nav-item:hover .nav-link,
 .custom-nav-container .navbar-nav .nav-item.active .nav-link {
-  color: #ffffff;
+  color: #ef4813 !important;
 }
 
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #ef4813 !important;
+}
 .custom-nav-container .navbar-nav .nav-item.active .nav-link {
   font-weight: 600;
 }
@@ -86,7 +90,7 @@
 .btn.btn-primary {
   background-color: #ef4813;
   color: #ffffff;
-  padding: 10px 30px;
+  padding: 5px 25px;
   border-radius: 100px;
   text-decoration: none;
   border: none;
@@ -100,6 +104,12 @@
   border-radius: 100px;
   text-decoration: none;
 }
+
+.logo-main{
+  width: 180px;
+}
+
+
 
 /* Hero section */
 
@@ -141,18 +151,17 @@
   height: 2px;
 }
 
-
 /* Menu section */
 
 .menu-section {
   background: radial-gradient(
-      circle at 10% 20%,
-      rgb(69, 86, 102) 0%,
-      rgb(34, 34, 34) 90%
-    ) !important;
-    padding: 40px;
-    color: #ffffff;
-    border-radius: 50px;
+    circle at 10% 20%,
+    rgb(69, 86, 102) 0%,
+    rgb(34, 34, 34) 90%
+  ) !important;
+  padding: 40px;
+  color: #ffffff;
+  border-radius: 50px;
 }
 
 /* Media query section */
