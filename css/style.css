@@ -100,10 +100,21 @@
 .btn.btn-primary:hover {
   background-color: #ffffff;
   color: black;
-  padding: 10px 30px;
+  padding: 5px 25px;
   border-radius: 100px;
   text-decoration: none;
 }
+
+.btn.btn-secondary{
+background-color: #ef4813 !important;
+border-radius: 100px;
+border: none;
+}
+.btn.btn-secondary:hover{
+  background-color: #464e58 !important;
+  }
+
+
 
 .logo-main {
   width: 180px;
